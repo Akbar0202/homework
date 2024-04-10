@@ -27,6 +27,8 @@
 
 
 # son = []
+# musbat = []
+# manfiy = []
 # son1 = int(input("Son kiriting:"))
 # son.append(son1)
 # son1 = int(input("Son kiriting:"))
@@ -38,11 +40,10 @@
 # son1 = int(input("Son kiriting:"))
 # son.append(son1)
 # print(son)
-# musbat = []
-# manfiy = []
-# if son1 > 0:
-#     musbat.append(son1)
-#     print(musbat)
-# else:
-#     manfiy.append(son1)
-#     print(manfiy)
+# for i in son:
+#     if i > 0:
+#         musbat.append(i)
+#         print(musbat)
+#     else:
+#         manfiy.append(i)
+#         print(manfiy)
