@@ -47,8 +47,8 @@ def kv_kubni_hisobla(son):
 kv_kubni_hisobla(4)
 # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # 3.
-Foydalanuvchidan son olib, son juft yoki
-toqligini konsolga chiqaruvchi funksiya yozing.
+# Foydalanuvchidan son olib, son juft yoki
+# toqligini konsolga chiqaruvchi funksiya yozing.
 def toq_juft(son):
     if son%2 == 0:
         print(f"{son} juft son.")
@@ -57,7 +57,8 @@ def toq_juft(son):
 toq_juft(5)
 # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # 4.
-# Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing.
+# Foydalanuvchidan ikkita son olib, ulardan
+# kattasini konsolga chiqaruvchi funksiya yozing.
 # Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
 
 def sonlarni_taqqosla(n,m):
@@ -91,4 +92,4 @@ def bolinish(x):
         if x%i == 0:
             print(f"{x} soni {i} soniga qoldiqsiz bo'linadi")
 bolinish(90)
-# ///////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# ///////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
